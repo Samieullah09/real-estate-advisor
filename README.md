@@ -17,7 +17,7 @@ Built with Python, scikit-learn, Streamlit, Plotly and MLflow.
 
 \- \*\*Model Performance\*\*: classification and regression comparison, confusion matrix, feature importance
 
-\- \*\*MLflow tracking\*\*: every training run (parameters, metrics, models) is logged
+\- \*\*MLflow tracking**: every training run (parameters, metrics and task tags) is logged
 
 
 
