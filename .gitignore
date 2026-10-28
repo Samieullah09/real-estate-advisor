@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+mlflow.db
+mlruns/
+data/raw/
+data/processed/housing_clean.csv
+data/processed/housing_ml_ready.csv
+reports/eda/
+assets/raw/
+.DS_Store
