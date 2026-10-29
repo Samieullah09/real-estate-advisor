@@ -2,6 +2,7 @@ import time
 
 import joblib
 import mlflow
+import mlflow.sklearn
 import pandas as pd
 from sklearn.ensemble import HistGradientBoostingClassifier, RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
@@ -56,6 +57,8 @@ def main():
             mlflow.log_params({k: v for k, v in model.get_params().items()
                                if k in ("n_estimators", "max_depth", "learning_rate", "max_iter")})
             mlflow.log_metrics(metrics)
+            mlflow.sklearn.log_model(pipe, name="model", serialization_format="cloudpickle")
+
         rows.append({"model": name, **metrics})
         fitted[name] = pipe
         print(f"{name}: " + " | ".join(f"{k} {v:.4f}" for k, v in metrics.items())

@@ -9,7 +9,7 @@ Built with Python, scikit-learn, XGBoost, Streamlit, Plotly and MLflow.
 - **Investment Advisor**: Good Investment / Needs Review verdict with confidence and a 5-year price estimate
 - **EDA Explorer**: 20 exploratory questions with filters and data-driven insights
 - **Model Performance**: classification and regression comparison, confusion matrix, feature importance
-- **MLflow tracking**: every training run (parameters, metrics and task tags) is logged
+- **MLflow tracking**: every training run (parameters, metrics, task tags and the trained model pipeline) is logged
 
 ## Documentation
 - [Methodology](docs/METHODOLOGY.md)
