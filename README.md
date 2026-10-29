@@ -20,6 +20,12 @@ Built with Python, scikit-learn, Streamlit, Plotly and MLflow.
 \- \*\*MLflow tracking**: every training run (parameters, metrics and task tags) is logged
 
 
+## Documentation
+- [Methodology](docs/METHODOLOGY.md)
+- [Findings](docs/FINDINGS.md)
+- [Use Cases](docs/USE_CASES.md)
+
+
 ## MLflow experiment tracking
 ![Classification runs](docs/01_classification_runs.png)
 ![Regression runs](docs/02_regression_runs.png)
