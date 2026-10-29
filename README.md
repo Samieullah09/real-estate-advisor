@@ -32,6 +32,17 @@ Built with Python, scikit-learn, XGBoost, Streamlit, Plotly and MLflow.
     assets/             Background and sidebar images
     docs/               Documentation and MLflow screenshots
 
+## Scripts
+| Script | What it does |
+|---|---|
+| `src/01_audit.py` | Checks the raw data (missing values, duplicates, ranges) |
+| `src/02_clean.py` | Cleans the data and creates the cleaned dataset |
+| `src/03_features_targets.py` | Creates new features and the two targets |
+| `src/eda_charts.py` | The 20 EDA questions: builds the charts and prints the answers |
+| `src/05_train_classifier.py` | Trains and evaluates the classification models, logs to MLflow |
+| `src/06_train_regressor.py` | Trains and evaluates the regression models, logs to MLflow |
+| `src/modeling_common.py` | Shared helpers: pipeline, train/test split, feature importance |
+
 ## Run locally
     pip install -r requirements.txt
     streamlit run app.py
@@ -42,6 +53,7 @@ To retrain the models and view experiments (needs the raw dataset in data/raw/):
     python src/01_audit.py
     python src/02_clean.py
     python src/03_features_targets.py
+    python src/eda_charts.py
     python src/05_train_classifier.py
     python src/06_train_regressor.py
     mlflow ui --backend-store-uri sqlite:///mlflow.db
