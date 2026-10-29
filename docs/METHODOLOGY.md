@@ -70,7 +70,9 @@ Screenshots are in the `docs` folder:
 The app is built with Streamlit and it is live here:
 https://estateiq-advisor.streamlit.app/
 
-Pages: Home, EDA Explorer (20 questions), Investment Advisor and Model Performance.
+Pages: Home, EDA Explorer (20 questions), Property Explorer, Investment Advisor and Model Performance.
+
+The **Property Explorer** page lets the user filter the cleaned listings by state, city, property type, BHK, price, size and availability, sort them, and download the matching rows as a CSV file.
 
 ## 9. Limitations
 - The dataset looks synthetic (made-up). Price, size and location have almost no real link with each other.

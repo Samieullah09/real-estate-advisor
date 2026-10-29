@@ -18,7 +18,10 @@ The app shows a verdict (Good Investment or Needs Further Review), a confidence 
 **Situation 2: Which area should I look at?**
 An investor opens the *EDA Explorer* page and filters by state, BHK and price range. The charts show where price per sq ft is higher and how transport and availability change the Good Investment share.
 
-**Situation 3: Which model can I trust?**
+**Situation 3: Show me properties that fit my budget**
+A buyer opens the *Property Explorer* page and picks a city, a BHK and a price range. The app shows how many listings match, their average price and the Good Investment share, with a table they can sort and download. They then take one listing to the *Investment Advisor* to check its 5-year value.
+
+**Situation 4: Which model can I trust?**
 A reviewer opens the *Model Performance* page. They see accuracy, F1, ROC-AUC, the confusion matrix and the feature importance, so they can judge how reliable the predictions are.
 
 ## 3. How to use the app
@@ -26,7 +29,7 @@ A reviewer opens the *Model Performance* page. They see accuracy, F1, ROC-AUC, t
 2. Choose **Investment Advisor** in the sidebar.
 3. Fill in the property details and press **Get Investment Analysis**.
 4. Read the verdict, the 5-year price and the comparison charts.
-5. Use **EDA Explorer** to understand the market and **Model Performance** to see how good the models are.
+5. Use **Property Explorer** to filter listings, **EDA Explorer** to understand the market and **Model Performance** to see how good the models are.
 
 ## 4. Business value
 - Saves time: one page replaces many manual checks.
