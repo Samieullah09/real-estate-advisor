@@ -32,6 +32,12 @@ About **44.8%** of the properties are labelled Good Investment (5-year growth ab
 - The strongest signal is **price compared with the city median**. Cheaper-than-city properties are more often Good Investments.
 - Newer properties and properties with a higher infrastructure score also do better.
 
+## 3b. Extra checks from the project brief
+- **Area vs investment return:** the correlation between size and 5-year appreciation is 0.43. In this data, bigger properties have a lower price per sq ft, and my growth model gives a bonus to properties that are cheaper than their city median. So this link comes from the formula, not from the real market.
+- **Infrastructure score vs price:** the correlation with price per sq ft is almost zero (-0.001). Infrastructure score affects the growth rate only because I built it into the formula (correlation 0.36).
+- **Crime rate:** the dataset has no crime column, so this analysis was not possible.
+- **Resale value:** the dataset has no resale price. I used price per sq ft as the closest measure, and it shows no relation with infrastructure.
+
 ## 4. Model results
 
 **Classification (is it a Good Investment?)**
