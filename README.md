@@ -10,7 +10,7 @@ Built with Python, scikit-learn, XGBoost, Streamlit, Plotly and MLflow.
 - **EDA Explorer**: 20 exploratory questions with filters and data-driven insights
 - **Model Performance**: classification and regression comparison, confusion matrix, feature importance
 - **MLflow tracking**: every training run (parameters, metrics, task tags and the trained model pipeline) is logged
-- **Property Explorer:** filter listings by state, city, property type, BHK, price and size, sort them, and download the results as CSV.
+- **Property Explorer**: filter listings by state, city, property type, BHK, price and size, sort them, and download the results as CSV.
 
 ## Documentation
 - [Methodology](docs/METHODOLOGY.md)
@@ -25,14 +25,13 @@ Built with Python, scikit-learn, XGBoost, Streamlit, Plotly and MLflow.
 
 ## Project structure
     app.py              Streamlit entry point
-    app_pages/          Page modules and theme
+    app_pages/          Page modules (incl. explorer.py: Property Explorer) and theme
     src/                Pipeline: audit, clean, features/targets, EDA charts, training
     models/             Trained classifier and regressor (joblib)
     reports/            Model comparison tables and metrics
     data/processed/     Model-ready dataset (gzip)
     assets/             Background and sidebar images
     docs/               Documentation and MLflow screenshots
-    explorer.py         Property Explorer (filter and browse listings)
 
 ## Scripts
 | Script | What it does |
