@@ -10,7 +10,7 @@ st.set_page_config(page_title="EstateIQ | Investment Advisor", page_icon="🏢",
                    layout="wide", initial_sidebar_state="expanded")
 inject_css()
 
-DATA_PATH = Path("data/processed/housing_ml_ready.csv")
+DATA_PATH = Path("data/processed/housing_ml_ready.csv.gz")
 
 
 @st.cache_data
